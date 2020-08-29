@@ -1,0 +1,59 @@
+/* ---------------- THE SITE HEADER ------------------*/
+#site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+/* ---------------- THE SITE HEADER ENDS ------------------*/
+
+/* ---------------- THE HERO SECTION ------------------*/
+#site-hero {
+  position: relative;
+  padding: 160px 0 40px;
+  color: white;
+}
+@media (max-width: 450px) {
+  #site-hero {
+    padding-top: 100px;
+  }
+}
+#site-hero:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  background: url('/img/MIT-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+#site-hero:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,1));
+  opacity: 0.75;
+  z-index: -1;
+}
+#site-hero-content {
+  height: calc(100vh - 230px);
+  min-height: 450px;
+}
+#site-hero-content img {
+  width: 400px;
+  max-width: 75vw;
+  filter: contrast(0) brightness(2);
+}
+#site-hero-content h2 {
+  margin-top: 50px;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+}
+/* ---------------- THE HERO SECTION ENDS ------------------*/
