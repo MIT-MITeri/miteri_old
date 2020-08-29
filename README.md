@@ -1,2 +1,0 @@
-# miteri
-Website of MITeri
