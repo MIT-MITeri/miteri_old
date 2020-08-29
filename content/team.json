@@ -1,0 +1,24 @@
+{
+  "members": [
+    {
+      "name": "Prabhakar Kafle",
+      "image": "Prabhakar.jpg",
+      "title": "Webmaster",
+      "class": "Undergraduate- Class of 2023",
+      "course": "Computer Science"
+    },
+    {
+      "name": "Robert Koirala",
+      "image": "Robert.jpg",
+      "title": "Co-President",
+      "class": "Undergraduate- Class of 2022",
+      "course": "Maths"
+    },
+    {
+      "name": "Ishaan Pakuwal",
+      "image": "Ishaan.jpg",
+      "class": "Undergraduate- Class of 2021",
+      "course": "Computer Science"
+    }
+  ]
+}

@@ -1,10 +1,26 @@
+html {
+  --primary-color: #be2323;
+}
+
 /* ---------------- THE SITE HEADER ------------------*/
 #site-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 2;
+  min-height: 80px;
+}
+#site-header.scrolled {
+  position: fixed;
+  background: white;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+#site-header .navbar-brand {
+  display: none;
+}
+#site-header.scrolled .navbar-brand {
+  display: block;
 }
 /* ---------------- THE SITE HEADER ENDS ------------------*/
 
@@ -57,3 +73,55 @@
   text-align: center;
 }
 /* ---------------- THE HERO SECTION ENDS ------------------*/
+
+/* ---------------- THE SITE HEADER ------------------*/
+#site-footer {
+  background: var(--primary-color);
+  padding: 10px 0;
+  color: #ccc;
+  text-align: center;
+}
+#site-footer a {
+  color: white;
+}
+/* ---------------- THE SITE HEADER ENDS ------------------*/
+
+/* ---------------- SITE CONTENT SECTIONS ------------------*/
+.site-section {
+  padding: 60px 0;
+}
+.site-section .section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* ---------------- SITE CONTENT SECTIONS ENDS ------------------*/
+
+/* ---------------- ABOUT SECTION ------------------*/
+.site-section#about {
+  background: #fee;
+}
+.site-section#about .section-content {
+  text-align: center;
+  font-size: 1.3em;
+}
+/* ---------------- ABOUT SECTION ENDS ------------------*/
+
+/* ---------------- TEAM SECTION ------------------*/
+#team .team-member {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+  border: none;
+  background: unset;
+}
+.team-member .member-photo {
+  max-width: 150px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid var(--primary-color);
+}
+.team-member .member-meta {
+  font-style: italic;
+}
+/* ---------------- TEAM SECTION ENDS ------------------*/

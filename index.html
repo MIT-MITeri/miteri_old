@@ -18,6 +18,8 @@
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#be2323">
@@ -91,15 +93,17 @@
           </div>
         </header>
         <div class="section-content row align-items-center justify-content-around">
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 template single-member">
             <div class="card team-member">
-              <img src="/img/Prabhakar.jpg" class="card-img-top" alt="Prabhakar Kafle" loading="lazy" />
+              <img src="" class="card-img-top member-photo" alt="" loading="lazy" />
               <div class="card-body">
-                <h5>Prabhakar Kafle</h5>
-                <div class="member-meta">Webmaster</div>
-                <div class="member-meta">Undergraduate- Class of 2023</div>
+                <h5 class="member-name"></h5>
+                <div class="member-meta">
+                  <div class="member-title"></div>
+                  <div class="member-class"></div>
+                  <div class="member-course"></div>
+                </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -108,14 +112,26 @@
     <footer id="site-footer">
       <div class="container">
         <div class="row justify-content-between align-items-center">
-          <div class="col-auto">
+          <div class="col-12 col-md-auto">
+            <a href="mailto:miteri@mit.edu">miteri@mit.edu</a>
+            <span class="px-1">|</span>
+            <div class="d-inline-flex">
+              <a href="https://www.facebook.com/mitmiteri/" target="blank" class="pr-1">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+              <a href="https://www.instagram.com/mitmiteri/" target="blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-auto">
             Site made by <a href="http://prabhakarkafle.com.np/" target="blank">Prabhakar Kafle</a>.
+            Find the code on <a href="https://github.com/MIT-MITeri/miteri" target="blank">Github</a>.
           </div>
         </div>
       </div>
     </footer>
   </div>
-  <p>Hello world! This is MITeri.</p>
   <script src="js/main.js"></script>
 </body>
 
