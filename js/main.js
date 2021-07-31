@@ -17,7 +17,7 @@ const toggleNavClass = () => {
 window.addEventListener('scroll', () => toggleNavClass());
 
 function loadTeam() {
-  fetch('/content/team.json')
+  fetch('content/team.json')
     .then( response => response.json() )
     .then( data => {
       const members = data['members'];
@@ -41,7 +41,7 @@ function loadTeam() {
 }
 
 function loadEvents() {
-  fetch('/content/events.json')
+  fetch('content/events.json')
     .then( response => response.json() )
     .then( data => {
       const events = data['events'];
@@ -52,7 +52,7 @@ function loadEvents() {
         element.classList.remove('template');
 
         const img = element.querySelector('.event-photo');
-        img.setAttribute('src', '/img/'+event.photo);
+        img.setAttribute('src', 'img/'+event.photo);
         img.setAttribute('alt', event.description);
 
         element.querySelector('.event-description').innerHTML = event.description;
