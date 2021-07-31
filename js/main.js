@@ -28,7 +28,7 @@ function loadTeam() {
         element.classList.remove('template');
 
         const img = element.querySelector('.member-photo');
-        img.setAttribute('src', '/img/'+member.image);
+        img.setAttribute('src', 'img/'+member.image);
         img.setAttribute('alt', member.name);
 
         element.querySelector('.member-name').innerHTML = member.name;
