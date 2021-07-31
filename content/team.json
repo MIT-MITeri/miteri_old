@@ -2,10 +2,10 @@
   "members": [
     {
       "name": "Robert Koirala",
-      "image": "Robert.jpg",
+      "image": "Robert.jpeg",
       "title": "President",
       "class": "Undergraduate- Class of 2022",
-      "course": "Maths"
+      "course": "Math"
     },
     {
       "name": "Prabhakar Kafle",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Kartikesh Mishra",
-      "image": "Kartikesh.jpg",
+      "image": "Kartikesh.png",
       "title": "Webmaster",
       "class": "Undergraduate- Class of 2024",
       "course": "Computer Science and Maths"
