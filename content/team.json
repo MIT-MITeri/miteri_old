@@ -1,39 +1,39 @@
 {
   "members": [
     {
-      "name": "Robert Koirala",
-      "image": "Robert.jpeg",
-      "title": "President",
-      "class": "Undergraduate- Class of 2022",
-      "course": "Math"
-    },
-    {
       "name": "Prabhakar Kafle",
       "image": "Prabhakar.jpg",
-      "title": "Public Outreach Coordinator",
-      "class": "Undergraduate- Class of 2023",
-      "course": "Computer Science"
-    },
-    {
-      "name": "Ishan Pakuwal",
-      "image": "Ishan.jpg",
-      "title": "Treasurer",
-      "class": "Undergraduate- Class of 2021",
+      "title": "President",
+      "class": "Undergraduate - Class of 2023",
       "course": "Computer Science"
     },
     {
       "name": "Ngima Hyolmo",
       "image": "Ngima.jpeg",
-      "title": "Social Media Coordinator",
-      "class": "Undergraduate- Class of 2024",
+      "title": "Public Outreach Coordinator",
+      "class": "Undergraduate - Class of 2024",
       "course": "Mechanical Engineering"
     },
     {
       "name": "Kartikesh Mishra",
       "image": "Kartikesh.png",
       "title": "Webmaster",
-      "class": "Undergraduate- Class of 2024",
-      "course": "Computer Science and Maths"
+      "class": "Undergraduate - Class of 2024",
+      "course": "Computer Science and Mathematics"
+    },
+    {
+      "name": "Pratik Bhandari",
+      "image": "blank.jpeg",  
+      "title": "Treasurer",
+      "class": "Undergraduate - Class of 2025",
+      "course": "Economics and Computer Science"
+    },
+    {
+      "name": "Yogesh Koirala",
+      "image": "Yogesh.jpg",
+      "title": "Webmaster",
+      "class": "Undergraduate - Class of 2025",
+      "course": "Computer Science"
     }
   ]
 }
