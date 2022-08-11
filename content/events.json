@@ -1,6 +1,11 @@
 {
   "events": [
     {
+      "photo": "street_food.jpeg",
+      "description": "Street food event organized by MITeri, where we brought the exquisite taste of Nepali street foods to the doors of MIT, satisfying the desire of over 300 curious students and staff! Chatpate, pani puri, momos, samosas, sel roti, and dhungri were among the highlights of the event! And, of course, any Nepali event is incomplete without dancing to pleasant Nepali songs that bring memories of Nepal!"
+
+    },
+    {
       "photo": "Dashain.png",
       "description": "Dashain Dinner with Dr. Lochan Rijal, students and alumni of MIT, Harvard, Tufts, Wellesley, BU, Brandeis, and more! MITeri and Harvard Nepali students organize a Dashain dinner and get together with students from around Boston every year."
     },
