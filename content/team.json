@@ -1,18 +1,18 @@
 {
   "members": [
     {
-      "name": "Prabhakar Kafle",
-      "image": "Prabhakar.jpg",
-      "title": "President",
-      "class": "Undergraduate - Class of 2023",
-      "course": "Computer Science"
-    },
-    {
       "name": "Ngima Hyolmo",
       "image": "Ngima.jpeg",
-      "title": "Vice President",
+      "title": "Co-President",
       "class": "Undergraduate - Class of 2024",
       "course": "Mechanical Engineering"
+    },
+    {
+      "name": "Pratik Bhandari",
+      "image": "blank.jpeg",  
+      "title": "Co-President",
+      "class": "Undergraduate - Class of 2025",
+      "course": "Economics and Computer Science"
     },
     {
       "name": "Kartikesh Mishra",
@@ -22,18 +22,25 @@
       "course": "Computer Science and Mathematics"
     },
     {
-      "name": "Pratik Bhandari",
-      "image": "blank.jpeg",  
-      "title": "Treasurer",
-      "class": "Undergraduate - Class of 2025",
-      "course": "Economics and Computer Science"
-    },
-    {
       "name": "Yogesh Koirala",
       "image": "Yogesh.jpg",
-      "title": "Webmaster",
+      "title": "Treasurer",
       "class": "Undergraduate - Class of 2025",
       "course": "Computer Science"
+    },
+    {
+      "name": "Samir Kadariya",
+      "image": "blank.jpeg",
+      "title": "Treasurer",
+      "class": "Undergraduate - Class of 2026",
+      "course": "Computer Science"
+    },
+    {
+      "name": "Ruchee Bhatta",
+      "image": "blank.jpeg",
+      "title": "Head of Social Media",
+      "class": "Undergraduate - Class of 2026",
+      "course": "Mathematics"
     }
   ]
 }
